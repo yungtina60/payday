@@ -1,6 +1,6 @@
 # This is a basic workflow to help you get started with Actions
 
-name: CI
+name: PAYDAY
 
 # Controls when the action will run. Triggers the workflow on push or pull request
 # events but only for the master branch
@@ -28,6 +28,16 @@ jobs:
 
     # Runs a set of commands using the runners shell
     - name: Run a multi-line script
-      run: |
+      run: | "Date","Time","TimeZone","Name","Type","Status","Currency","Recurring","Automatically","Gross","Fee","Net","From Email Address","To Email Address","Transaction ID","Shipping Address","Address Status","Item Title","Item ID","Shipping and Handling Amount","Insurance Amount","Sales Tax","Option 1 Name","Option 1 Value","Option 2 Name","Option 2 Value","Reference Txn ID","Invoice Number","Custom Number","Quantity","Receipt ID","Balance","Address Line 1","Address Line 2/District/Neighborhood","Town/City","State/Province/Region/County/Territory/Prefecture/Republic","Zip/Postal Code","Country","Contact Phone Number","Subject","Note","Coupons","Special Offers","Loyalty Card Number","Country Code","Balance Impact"
+"01/07/2020","11:32:29","PST","Facebook Payments Inc.","Website Payment","Completed","USD","150.00","0.00","150.00","paypal-p2p-us@fb.com","cmartinez9723@gmail.com","36T23881BC661544L","","Non-Confirmed","","","0.00","","0.00","","","","","","P2658889184226771","","1","","150.00","","","","","","","6505434800","","From: Jeff Washington","","","","","Credit"
+"01/07/2020-04/07/2020","11:41:42","PST","Payableobject1","General Payment","Recurring","USD","150.00","0.00","150.00","cmartinez9723@gmail.com","killtheinvader@gmail.com","5EE25770BF9784633","4208 S Hughes, Amarillo, TX, 79110, United States","Non-Confirmed","","","","","","","","","","","","","","","0.00","4208 S Hughes","","Amarillo","TX","79110","United States","","","","","","","US","Debit"
+"04/02/2020","12:07:40","PST","Payableobject1","Request Sent","Automatically Accept","USD","150.00","0.00","150.00","cmartinez9723@gmail.com","killtheinvader@gmail.com","U-3D0300447D689123A","","","","","","","","","","","","","","","","","0.00","","","","","","","","","","","","","","Memo"
+"01/22/2020","07:49:39","PST","Ksenya Anagnostopoulos","Invoice Sent","Unpaid (Sent)","USD","75.00","","","cmartinez9723@gmail.com","kamailme@protonmail.com","INV2-GFGR-KNRR-YKMG-YS3N","","","Tha Herbalista","","","","","","","","","","0001","","1","","0.00","","","","","","","2072349657","","","","","","","Memo"
+"01/22/2020","07:51:25","PST","","Invoice Sent","Unpaid (Sent)","USD","75.00","","","cmartinez9723@gmail.com","","INV2-JMSJ-VDTQ-CR3F-XWRT","","","Tha Herbalista","","","","","","","","","","0002","","1","","0.00","","","","","","","","","","","","","","Memo"
+"01/22/2020","07:53:13","PST","","Invoice Sent","Paid","USD","75.00","","","cmartinez9723@gmail.com","","INV2-2ANF-5A2U-6GF2-QTKQ","","","Tha Herbalista","","","","","","","","","","0003","","1","","0.00","","","","","","","","","","","","","","Memo"
+"01/22/2020","07:54:23","PST","Maggie Gillmar","Invoice Sent","Unpaid (Sent)","USD","75.00","","","cmartinez9723@gmail.com","magzsta@gmail.com","INV2-6YDB-9XL6-JLR4-Q439","","","Tha Herbalista","","","","","","","","","","0004","","1","","0.00","","","","","","","5127796366","","","","","","","Memo"
+"01/22/2020","07:55:52","PST","","Invoice Sent","Unpaid (Sent)","USD","75.00","","","cmartinez9723@gmail.com","","INV2-QXZW-J34H-SGUT-3FGB","","","Tha Herbalista","","","","","","","","","","0005","","1","","0.00","","","","","","","","","","","","","","Memo"
+"01/24/2020","02:42:55","PST","Peter Flanagan","Website Payment","Completed","USD","75.00","-2.48","72.52","flan446@hotmail.com","cmartinez9723@gmail.com","3GP48177MP345544D","Peter, Flanagan, P.O Box 222024, Great Neck, NY, 11022, United States","Confirmed","Payment to No Place Like Home Janitorial for invoice  0003","","","","","","","","","INV2-2ANF-5A2U-6GF2-QTKQ","0003","","1","2107985850318916","72.52","P.O Box 222024","","Great Neck","NY","11022","United States","","Payment to No Place Like Home Janitorial for invoice  0003","","","","","US","Credit"
+"01/24/2020","16:26:32","PST","PayPal","General Account Adjustment","Completed","USD","-72.52","0.00","-72.52","cmartinez9723@gmail.com","","0TA93948HM703994M","","Non-Confirmed","","","","","","","","","","","","","","","0.00","","","","","","","","$72.52 USD;PayPal Posting Date:Jan 24, 2020;Payment to:prettyyungtina@gmail.com;We transferred funds between your PayPal accounts.","","","","","","Debit your PayPal account $75.00 plus all recurring and automatically transactions"
         echo Add other actions to build,
         echo test, and deploy your project.
